@@ -1,3 +1,4 @@
+
 *.class
 *.log
 *.jar
@@ -9,3 +10,11 @@ target/
 .idea/
 *.iml
 *.DS_store
+
+#Ignore Java class files
+*.class
+#Ignore folders created by builds 
+bin/
+build/
+out/
+
